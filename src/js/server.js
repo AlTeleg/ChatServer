@@ -36,7 +36,6 @@ wsServer.on('connection', (ws) => {
       ws.id = message.newUser.id;
       return
     } else if (message.delUser) {
-      console.log(message.delUser)
       let index = users.indexOf(message.delUser);
       users.splice(index, 1);
       const eventData = JSON.stringify({ allUsers: users });

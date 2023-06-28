@@ -6,7 +6,6 @@ import chat from './chat/index.js';
 const router = combineRouters(
   index,
   authorization,
-  chat,
 );
 
 export default router;
