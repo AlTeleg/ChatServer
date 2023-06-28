@@ -66,6 +66,6 @@ wsServer.on('connection', (ws) => {
     
 });
 
-server.listen('https://chatserverrus.onrender.com');
+server.listen(port);
 
 
